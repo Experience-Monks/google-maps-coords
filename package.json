@@ -1,0 +1,33 @@
+{
+  "name": "google-maps-coords",
+  "version": "1.0.0",
+  "description": "Convert Google Maps Coordinates without Google Maps. Handles conversions between lat long, point, and px",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+    "mercator-projection": "0.0.2"
+  },
+  "devDependencies": {
+    "budo": "^4.0.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "budo test/"
+  },
+  "keywords": [
+    "google"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/google-maps-coords.git"
+  },
+  "homepage": "https://github.com/Jam3/google-maps-coords",
+  "bugs": {
+    "url": "https://github.com/Jam3/google-maps-coords/issues"
+  }
+}
